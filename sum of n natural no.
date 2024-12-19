@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n;
+    cout << "Enter a positive integer: ";
+    cin >> n;  // Input the value of n
+
+    // Calculate the sum using the formula
+    int sum = (n * (n + 1)) / 2;
+
+    // Output the result
+    cout << "Sum of first " << n << " natural numbers is: " << sum << endl;
+
+    return 0;
+}
